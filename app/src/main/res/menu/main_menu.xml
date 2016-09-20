@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <group>
+        <item
+            android:id="@+id/main"
+            android:icon="@mipmap/ic_launcher"
+            android:showAsAction="always"
+            android:title="main"/>
+        <item
+            android:id="@+id/second"
+            android:showAsAction="never"
+            android:title="second"/>
+        <item
+            android:id="@+id/third"
+            android:showAsAction="ifRoom"
+            android:title="third"/>
+    </group>
+
+</menu>
