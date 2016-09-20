@@ -25,6 +25,7 @@ public class MainActivity extends Activity {
         TextView textView = new TextView(getApplicationContext());
         textView.setText("textview by customview");
         actionBar.setCustomView(textView);
+         
     }
 
     @Override
