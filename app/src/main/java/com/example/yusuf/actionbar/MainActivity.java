@@ -27,7 +27,6 @@ public class MainActivity extends Activity {
         actionBar.setCustomView(textView);
     }
 
-
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater menuInflater = getMenuInflater();
